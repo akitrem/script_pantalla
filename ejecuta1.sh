@@ -1,8 +1,8 @@
 # bin/bash
 
-echo "ejecutar el ping"
+#echo "ejecutar el ping"
 
-ping 8.8.8.8
+for i in $(cat archivo.txt); do ping $i -t ; done
 
-echo "termina el ping"
+#echo "termina el ping"
 
